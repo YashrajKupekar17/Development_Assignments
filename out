@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    height: 100vh; /* Ensure the body takes up the full height of the viewport */
+    margin: 0; /* Remove default margin */
+    background-color: lightblue;
+}
+
+#middle {
+    background-color: darkblue;
+    color: white; /* Change text color for better visibility */
+    padding: 20px; /* Add some padding for better appearance */
+    border-radius: 10px; /* Optional: add rounded corners */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
